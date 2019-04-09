@@ -1,12 +1,18 @@
- /*var cups = 4
+ 
+ /*************************************************************************************
+ 
+ var cups = 4
 
  if ( cups<3 ) {
      console.log("Yes, I'll take another cup of coffee!");   
  } else{
      console.log("I've had enough");
- } */
+ } 
+ 
+ */
 
- /*
+
+ /*****************************************************************************************
  const temp = 60;
  const precip = false;
  if (temp>80 && precip === false) {
@@ -22,7 +28,9 @@ for (var i=99; i>= 0; i--) {
     }    
 }   */
 
-/*
+
+/********************************************************************************************
+
 var count = 1;
 for (count; count <= 100 ; count++ ) {  
  
@@ -36,7 +44,9 @@ for (count; count <= 100 ; count++ ) {
    
  }   */
 
- /*
+
+ /*************************************************************************************
+  
  var myvar = 'b'
 switch(myvar) {
 	case 'a':
@@ -53,7 +63,8 @@ switch(myvar) {
 		console.log('Uknown Variable')
 } */
 
-/*
+
+/******************************************************************************************
 
 var player1; 
 var player2; 
@@ -96,7 +107,9 @@ var weapons = ["rock", "paper", "scissors"];
  }
 */ 
 
-/*
+
+/**********************************************************************************************
+
  var shoplist =['pop tarts', 'ramen noodles', 'chips', 'salsa', 'coffee']
 
  shoplist.push('fruit loops')
@@ -117,9 +130,13 @@ var weapons = ["rock", "paper", "scissors"];
  }
  console.log(shopcart);
  shopcart.reverse();
- console.log(shopcart);   */
+ console.log(shopcart);   
+ 
+ */
 
- /*
+
+ /******************************************************************************************
+
  var course = {
 	name: 'JavaScript Applications',
 	awesome: true,
@@ -169,9 +186,12 @@ course.students.forEach(element => {
     }
 })
 console.log(list);
+
 */
 
-/*
+
+/*******************************************************************************************
+
 var landscape = function() {
     var result = '';
  
@@ -205,10 +225,11 @@ var landscape = function() {
   console.log(name); //jack
   console.log(greet(name)); //rose
 
-
    */
 
-   /*
+
+   /**********************************************************************************************************
+
    //Start with the following code template. After each step, run the program and see how the output changes.
 
 function outer(){
@@ -222,18 +243,7 @@ function outer(){
   
   outer();
   
-     // 1.Declare two variables, a and b in the outer function's scope and set them to a string and an object respectively. Log their values immediately.
-      
-     // 2.Log the values of a and b in the inner function.
-      
-      // 3.Update the inner function to take two parameters named a and b.
-      
-      // 4.Pass a and b in as arguments when you execute inner().
-      
-      // 5.Inside the inner function, assign new values to a and b and log them at the end of the function AND after the execution of inner(a,b).
-      
-      // 6.Inside the inner function, update a property of the b object.
-
+     
 */
 
 /*
@@ -259,7 +269,9 @@ function outer(){
   
   outer();
 
-    
+ */
+
+ /**********************************************
 
     // Hoisting
     function createFunction() {
@@ -272,36 +284,14 @@ function outer(){
     var inception;
     createFunction();
     inception();
+
 */
-/*
-The four scopes of ‘this’
-
-- implicit
-    - ex: myObj.func( );
-          - refers to myObj
-
-- explicit
-    - ex: func.bind(myObj)( )
-           - refers to myObj
-
-- new
-     - ex: var car = new func({ })
-	- ‘this’ is inside the function
-
-- global
-     - ex: func( )
 
 
-const teacher = {
-    name: 'Jimmy', 
-    sayName: function(){
-        console.log(this.name);
-    }
-}
- teacher.sayName();
 
- */
-/*
+/******************************************************************************************
+ 
+
    //this.photoList[this.currentPhotoIndex].toString()
 
  slideshow = {
@@ -336,6 +326,8 @@ const teacher = {
 
   */
 
+  /**********************************************************
+
  function makeAdder(x) {
     return function(y) {
       return x + y;
@@ -347,3 +339,22 @@ const teacher = {
   
   console.log(add5(2));  // 7
   console.log(add10(2)); // 12
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,8 @@
-/*
+
+
+/*********************************************************************************************
+
+
 Write a method that takes an array of consecutive (increasing) letters as input and that returns the missing letter in the array.
 You will always get an valid array. And it will be always exactly one letter be missing. The length of the array will always be at least 2.
 The array will always contain letters in only one case.
@@ -25,7 +29,11 @@ lfind =  function (arr) {
 }
 console.log(lfind(inputarr), inputarr);
                                             */
-/*
+
+
+
+
+/*****************************************************************************************
 
 Create a function that returns the sum of the two lowest positive numbers given 
 an array of minimum 4 integers. No floats or empty arrays will be passed.
@@ -45,34 +53,10 @@ const min = numarr => {
 } 
 */
 
-/*
+
+
+/********************************************************************************************
 Let's revisit Rock Paper Scissors...
-    Define a hands array with the values 'rock', 'paper', and 'scissors';
-    Define a function called getHand() that returns a hand from the array using parseInt(Math.random()*10)%3
-    Define two objects for two players. Each player has name and getHand() properties.
-    Define a function called playRound() that
-        Takes two player objects as arguments
-        Gets hands from each
-        Determines the winner
-        Logs the hands played and name of the winner.
-        If its a tie, log the hands played and "it's a tie".
-        Returns the winner object (null if no winner)
-    Define a function called playGame() that takes arguments player1, player2, and playUntil.
-        Play rounds until one of the players wins playUntil hands
-        When one player has won enough games, return the winning player object
-    Play a game to 5 wins
-!!!!Bonus!!!!!
-    Define a function caled playTournament()
-        Take 4 players and playUntil as arguments
-        Play a game between the first two players, and the second two players
-        Play a game between the winners of the first round.
-        Announce the tournament winner's name "[name] is the world champion";
-Collapse
-
-
-
-Message Input
-
 
 Message #spring-2019
 
