@@ -3,7 +3,8 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-/*
+
+
 console.log(`I Hello! I'm  a string
               continues on this line`);
 
@@ -41,6 +42,8 @@ foo();
 
 // => creates lexical binding.(instead of .bind metheod) - they bind to cope 
 //    where defined not where they are used
+
+
 
 /////////////////////////////////////////////////////////////////////////////////////
 
@@ -91,7 +94,12 @@ let spreadEx = (item) => {
 
 spreadEx("Hello World") // ["H", "e", "l", "l", "o", " ", "W".........] spread also returns an array.
 
+
+
+
 /////////////////////////////////////////////////////////////////////////////////
+
+
 
 let restEx = (...z) => {
     console.log(z)
@@ -100,7 +108,12 @@ let restEx = (...z) => {
 
 restEx("hello", "world") // ["hello", "world"]   rest returns an array.
 
+
+
 ///////////////////////////////////////////////////////////////////////////////
+
+
+
 
 let students = ["Julian", "Aj", "Matt"]  // it need to be let in ES6
 let[x,y,z] = students;
@@ -110,7 +123,10 @@ let[x, ...rest] = students;
 console.log(x, rest);    // Julian ["Aj", "Matt"]
 
 
+
+
 ///////////////////////////////////////////////////////////////////////////////
+
 
 let completedHomework = () => {
     return ["Julian", "Aj", "Matt"]
@@ -128,7 +144,9 @@ let instructor = {
 let { name: x, email: y}  = instructor;
 console.log(x);
 
+
 ///////////////////////////////////////////////////////////////////////
+
 
 
 let car = {           //destructuring the object in the argument
@@ -143,6 +161,9 @@ function something(vehicle, year = 2001) {
 
 
 /////////////////////////////////////////////////////////////////////////
+
+
+
 // prototypal inheritance
 //constructor function name is Capitalized , they are like templates
  
@@ -158,11 +179,14 @@ function Person (name, job) {
 
  var goodGuy = new Person ("Aang", "Avatar");
  console.log(goodGuy.getName())
+ 
 
 
- ////////////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////////////////
 
- class Person  {
+
+
+class Person  {
      constructorn (name, job) {
     this.name = name;
     this.job = job;
@@ -194,6 +218,7 @@ console.log(batman.secretIdentity())
 
 ///////////////////////////////////////////////////////
 
+
 class Person  {
    constructorn (name) {
    this.name = name;
@@ -207,8 +232,12 @@ class Person  {
 
    let goodGuy = new Person('Neo', 'the one')
    console.log(goodGuy);
+   
+   
 
 ///////////////////////////////////////////////////////////   
+
+
 
 let student = {name: "A-aron"};
 let status = new Map();      // map is an object;
@@ -218,8 +247,12 @@ status.set("feeling", "churlish");
 console.log(status.get(student.name));
 console.log(status.get("feeling"));
 
+
+
 ////////////////////////////////////////////////////////////
-   // Encapsulation
+  
+  
+  // Encapsulation
 const Guy = (function() {
     const _name = new WeakMap();
 
