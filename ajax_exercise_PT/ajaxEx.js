@@ -51,7 +51,7 @@ $('button#five').click(function(){
     $.post('http://jsonplaceholder.typicode.com/posts', {		
         completed: false,
 		      title: "Learn Promises",
-		     userId: 105},
+		     userId: 100},
 	    function(post){
         $("#test").html(post.id)
         console.log(post); 
@@ -67,6 +67,7 @@ $('button#five').click(function(){
          complete: function(data){ 
             var  htmlData = JSON.stringify(data.responseJSON);
                    $("#test").html(htmlData);  
+                   console.log(data.responseJSON);
                    console.log(data);   
                    }
   })
@@ -81,7 +82,7 @@ $('button#five').click(function(){
          complete: function(data){ 
             var  htmlData = JSON.stringify(data.responseJSON);
                    $("#test").html(htmlData);  
-                   console.log(data);   
+                   console.log(data.responseJSON);   
                    }
   })
 })
